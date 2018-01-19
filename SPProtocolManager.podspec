@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SPProtocolManager"
-  s.version      = “0.0.1”
+  s.version      = "0.0.2"
   s.summary      = "SPProtocolManager."
 
   # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  # s.license      = "MIT (example)"
+  # s.license      = "MIT"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { “simpleMei” => “simple@foxmail.com" }
+  s.author             = { "simpleMei" => "simple@foxmail.com" }
   # Or just: s.author    = "simpleMei"
   # s.authors            = { "simpleMei" => "casatwy@msn.com" }
   # s.social_media_url   = "http://twitter.com/CasaTaloyum"
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, “9.0”
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/SimpleMei/SPProtocolManager.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/SimpleMei/SPProtocolManager.git", :tag => "0.0.2"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SPProtocolManager/SPProtocolManager/*”
+  s.source_files  = "SPProtocolManager/SPProtocolManager/**/*.{m,h}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
